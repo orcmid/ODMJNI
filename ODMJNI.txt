@@ -1,8 +1,8 @@
-ODMJNI.txt 0.0.0                    UTF-8                         2026-01-17
+ODMJNI.txt 0.0.1                    UTF-8                         2026-01-18
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
-               ODMJNI: JAVA BRIDGE TO ODMA DOCUMENT MANAGEMENT SERVICES
-               ========================================================
+           ODMJNI: JAVA BRIDGE TO ODMA DOCUMENT MANAGEMENT SERVICES
+           ========================================================
 
                       <https://github.com/orcmid/ODMJNI>
           <https://github.com/orcmid/ODMJNI/blob/master/ODMJNI.txt>
@@ -10,58 +10,49 @@ ODMJNI.txt 0.0.0                    UTF-8                         2026-01-17
                   PRESERVATION OF JNI DEVELOPMENT ARTIFACTS
                   -----------------------------------------
 
-    nfoTools is a collection of utilities and software components.  The
-    tools are designed for use in composition of larger software projects
-    for information-processing applications (and games of course).  nfoTools
-    can apply anywhere in the complete learning-and-improvement lifecycle of
-    software projects.
+    ODMJNI was a project to provide access to the Open Document Management
+    API (ODMA) middleware for integration of document management services
+    desktop functions with productivity applications.  The sweet spot was
+    support for the ODMA32 bridge in Microsoft Office Word.
 
-    nfoTools includes a Toolcraft on-ramp that supports beginners who want
-    to understand more about programming and the tacit understanding of
-    experienced software developers.  Crawl first, then walk, then run.
-    Progressive discloser is used in a way that allows more-experienced
-    visitors to quickly skip over details they already know.  Review of the
-    basics may be useful though.
+    The ODMA32 bridge was a DLL that provided a C Language API to clients,
+    and a COM x86 interface from registered document-management system
+    client services.
 
-    Emphasis is on development of software for Microsoft Windows and using
-    Microsoft Windows desktop tools as instruments of such efforts.  Only
-    freely-available tools are required in addition to a Windows PC or laptop.
-    The working language is English. This is how the author is equipped.
+    ODMJNI is an additional layer above the ODMA32 bridge to provide access
+    from Java-based desktop applications.  The way that was accomplished involves the Java Native Interface (JNI) and it is instructive in how
+    that adaptation was arranged.
 
-    While nfoTools are useful independently, they are chosen and developed
-    first in service of specific software efforts originally housed on
-    nfoWare.com, nfoWorks.org, and more-recent efforts now on GitHub.
+    ODMJNI uses a particular hack involving the Java methods passing pointers
+    around under the guise of integers.  This device depended on x86
+    pointers and none of ODMJNI is suitable in today's x64 world.
+
+    There is no intention of reviving ODMJNI, especially in the absence of
+    any ODMA64.  This preservation is here because the use of COM behind
+    the scenes (essentially between the Java classes and the native DLL) may
+    be instructive.  It also should be understood that JNI is now enough
+    different that the trick may no longer be feasible.
+
+    There is also an instructive provision of COM interfaces that can be
+    treated as either C++ interfaces or C Language structs with a vtable
+    pointer as the first member.  I confess that figuring out how I managed
+    that is the incentive for digging up this old code as I work on The
+    Miser Project on GitHub (https://orcmid.github.io/miser).
+
 
 MANIFEST
 
-    IDMJNI.txt
+    ODMJNI.txt
         this synopsis, manifest and job-jar file
 
     README.md
         Introduction to the orcmid/ODMJNI repository.
 
-    devKits/
-        providing components and kits that are useful in the construction
-        stage of computer programs for utility and application purposes.
-
-    docKits/
-        providing components and kits, including tutorials and other aids,
-        that are useful in the documentation for GitHub-housed software-
-        development projects conducted in the open
-
     docs/
-        source of GitHub Pages documentation for nfoTools and accessible at
-        <https://orcmid.github.io/nfoTools/>
+        source of GitHub Pages documentation for ODMJNI and accessible at
+        <https://orcmid.github.io/ODMJNI/>
 
-    LICENSE.txt
-        The open-source software license that applies to the entire
-        nfoTools collection except where stated otherwise.
-
-    NOTICE.txt
-        Notice that applies with respect to particular components of
-        the nfoTools collection and their external origins.
-
-    .gitattributes
+    .gitattributes (pending)
         A declaration of file attributes for use in Git repositories of
         the nfoTools source code.
 
@@ -91,7 +82,7 @@ MANIFEST
  ATTRIBUTION
 
    Hamilton, Dennis E. ODMJNI: Preservation of JNI Development Artifacts.
-   ODMJNI project text file ODMJNI.txt version 0.0.0 dated 2026-01-17,
+   ODMJNI project text file ODMJNI.txt version 0.0.1 dated 2026-01-18,
    available on the Internet as a version of
    <https://github.com/orcmid/ODMJNI/blob/master/ODMJNI.txt>
 
@@ -102,10 +93,13 @@ TODO
 
   * Reconcile license differences.  ODMJNI is under a modified BSD license.
 
+  * Find the example of a bilingual C/C++ Interface definition.
+
 
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
- 0.0.0  2026-02-27T19:57Z Transposition of nfoTools.txt 0.0.12 as boilerplate
+ 0.0.1  2026-01-18T17:13Z Provide explanation of ODMJNI motivation now
+ 0.0.0  2026-01-17T19:57Z Transposition of nfoTools.txt 0.0.12 as boilerplate
 
 
 
