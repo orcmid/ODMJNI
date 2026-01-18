@@ -1,0 +1,62 @@
+images.txt 0.0.0                    UTF-8                         2026-01-18
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                              ODMJNI docs/ docEng
+                              ===================
+
+      <https://github.com/orcmid/ODMJNI/blob/main/docs/images/images.txt>
+              <https://orcmid.github.io/ODMJNI/images/images.txt>
+
+                  ODMJNI/ODMDEV  GITHUB PAGES IMAGES FOLDER
+                  -----------------------------------------
+
+    Location of images employed on pages of the ODMJNI Preservation
+    from the original <https://odma.info>, more recently held at
+    <https://nfocentrale.com/ocma/dev>.
+
+
+
+MANIFEST
+
+          images.txt
+                 this manifest and job-jar file
+
+     ODMdev-logo.gif
+
+    ODMdev-thumb.gif
+
+
+
+--|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                    Copyright 2026 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ ATTRIBUTION
+
+   Hamilton, Dennis E.  ODMJNI Documentation GitHub Pages Images folder.
+   Text file images.txt version 0.0.0 dated 2026-01-18 available on the Internet at <https://orcmid.github.io/ODMJNI/images/images.txt>
+
+ TODO
+
+  * Use this as the source of all images, including the ClstrMap, unless
+    we get it from the orcmid.github.io parent.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ 0.0.0 2026-01-18T01:00Z Initial images/ folder
+
+                          **** end of images.txt *****
