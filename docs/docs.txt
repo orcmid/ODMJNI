@@ -1,0 +1,88 @@
+docs.txt 0.0.0                      UTF-8                         2026-01-18
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                              ODMJNI docs/ docEng
+                              ===================
+
+        <https://github.com/orcmid/ODMJNI/blob/main/docs/docs.txt>
+                  <https://orcmid.github.io/ODMJNI/docs.txt>
+
+                   ODMJNI DOCUMENTATION GITHUB PAGES FOLDER
+                   ----------------------------------------
+
+    Documentation of ODMJNI is provided here as the source of GitHub Pages
+    for automatic publishing to <https://orcmid.github.io/ODMJNI/>.
+    This scaffolding page is also published there as passive but reachable
+    content.
+
+    This scaffolding, and further arrangements are a case of document
+    engineering applied to the docEng project and site themselves.
+
+    Because ODMJNI is for preservation of an existing development tree
+    and of web pages around its development, this will not have the
+    conventional Document Engineering hybridForms, although FrontPage
+    organization and tooling will be employed.
+
+MANIFEST
+
+        docs.txt
+            this manifest and job-jar file
+
+       index.md (pending)
+            Markdown source for the index.html home page published as
+            <https://orcmid.github.io/ODMJNI/index.html>
+
+      images/
+            subfolder of images relied upon for various elements of ODMJNI
+
+construction/ (perhaps)
+            construction materials and documentation of the structure and
+            authoring of the <https://orcmid.github.io/ODMJNI/> materials.
+
+--|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                    Copyright 2026 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ ATTRIBUTION
+
+   Hamilton, Dennis E.  ODMJNI Documentation GitHub Pages Folder.  Text file
+   docs.txt version 0.0.0 dated 2026-01-18 available on the Internet at
+   <https://orcmid.github.io/ODMJNI/docs.txt>
+
+ TODO
+
+  * Explain how this folder is used to generate the GitHub pages, possibly
+    with additional folders that are about the scaffolding and construction
+    materials.
+
+  * Add Apache license and notices page ?? .  They apply to the docEng repo,
+    what about the pages published here at docs/ ?
+
+  * Figure out how to deal with the handling of Hugo frameworks in this
+    context.  I want to experiment first.  How will that work exactly.
+
+  * I have not completed About and Construction stuff.  I do need to decide
+    how much to handle that.
+
+  * Bring hybridForm here from orcmid.github.io/miser and retro-fit it into
+    usage here and also as a model.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ 0.0.0 2026-01-18T00:18Z Minimal start-up for ODMJNI doc/ folder
+
+                          ***** end of docs.txt *****
