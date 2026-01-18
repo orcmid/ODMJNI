@@ -1,4 +1,4 @@
-ODMJNI.txt 0.0.1                    UTF-8                         2026-01-18
+ODMJNI.txt 0.0.2                    UTF-8                         2026-01-18
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
            ODMJNI: JAVA BRIDGE TO ODMA DOCUMENT MANAGEMENT SERVICES
@@ -36,8 +36,9 @@ ODMJNI.txt 0.0.1                    UTF-8                         2026-01-18
     There is also an instructive provision of COM interfaces that can be
     treated as either C++ interfaces or C Language structs with a vtable
     pointer as the first member.  I confess that figuring out how I managed
-    that is the incentive for digging up this old code as I work on The
-    Miser Project on GitHub (https://orcmid.github.io/miser).
+    that is the incentive for digging up this old code as I work on the
+    oMiser API as part of The Miser Project on GitHub
+    (https://orcmid.github.io/miser).
 
 
 MANIFEST
@@ -53,8 +54,8 @@ MANIFEST
         <https://orcmid.github.io/ODMJNI/>
 
     .gitattributes (pending)
-        A declaration of file attributes for use in Git repositories of
-        the nfoTools source code.
+        A declaration of file attributes for use in Git repositories based
+        on nfoTools styles of development.
 
     .gitignore
         A declaration of artifacts to be ignored and excluded from Git
@@ -82,7 +83,7 @@ MANIFEST
  ATTRIBUTION
 
    Hamilton, Dennis E. ODMJNI: Preservation of JNI Development Artifacts.
-   ODMJNI project text file ODMJNI.txt version 0.0.1 dated 2026-01-18,
+   ODMJNI project text file ODMJNI.txt version 0.0.2 dated 2026-01-18,
    available on the Internet as a version of
    <https://github.com/orcmid/ODMJNI/blob/master/ODMJNI.txt>
 
@@ -98,6 +99,7 @@ TODO
 
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
+ 0.0.2  2026-01-18T19:08Z Touch up
  0.0.1  2026-01-18T17:13Z Provide explanation of ODMJNI motivation now
  0.0.0  2026-01-17T19:57Z Transposition of nfoTools.txt 0.0.12 as boilerplate
 
